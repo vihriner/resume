@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihriner</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <img src="tgvih.jpg" alt="Фото Шевцова" width="200">
+    <h1>Vihriner</h1>
+    <p>Текст (от лат. textus — ткань; сплетение, сочетание)
+         — зафиксированная на каком-либо материальном носителе
+          человеческая мысль; в общем плане связная и полная
+           последовательность символов. </p>
+    <p>Существуют две основные трактовки понятия «текст»:
+         имманентная (расширенная, философски нагруженная)
+          и репрезентативная (более частная). Имманентный
+           подход подразумевает отношение к тексту как к
+            автономной реальности, нацеленность на выявление
+             его внутренней структуры. Репрезентативный —
+              рассмотрение текста как особой формы представления
+               информации о внешней тексту действительности.</p>
+    <hr>
+    <h2>Мои хобби</h2>
+    <ol>
+        <li>хобби1</li>
+        <li>хобби2</li>
+        <li>хобби3</li>
+        <li>хобби4</li>
+        <li>хобби5</li>
+    </ol>
+    <hr>
+    <h2>Места жизни</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Город</td>
+                <td>Годы</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Чернигов</td>
+                <td>2009-2018</td>
+            </tr>
+            <tr>
+                <td>Хабаровск</td>
+                <td>2018-2019</td>
+            </tr>
+            <tr>
+                <td>Москва</td>
+                <td>2019-20**</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Связаться со мной</h2>
+    <form>
+        <div>
+            <label for="name_user">Ваше имя</label>
+            <br>
+            <input type="text" id="name_user" value="Олень">
+        </div>
+        <div>
+            <label for="email">Ваш email</label>
+            <br>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="age">Сколько вам лет</label>
+            <br>
+            <input type="number" id="age" min="0">
+        </div>
+        <div>
+            <label for="range">Как вы относитесь к СВО по 10-бальной шкале</label>
+            <br>
+            <input type="range" id="range" min="1" max="10" step="1">
+        </div>
+        <div>
+            <label for="sex">Ваш пол</label>
+            <br>
+            <select id="sex">
+                <option value="man">Мужчина</option>
+                <option value="women">Женщина</option>
+                <option value="other" selected>Я олень</option>
+            </select>
+        </div>
+        <div>
+            <label for="messange">Ваше сообщение</label>
+            <br>
+            <textarea id="messange" cols="40" rows="10" placeholder="Напишите ваше сообщение"></textarea>
+        </div>
+        <div>
+            <!-- <input type="submit" value="Отправить"> -->
+             <button type="submit">Отправить</button>
+        </div>
+    </form>
+</body>
+</html>
